@@ -12,7 +12,7 @@
 				<li><a href="#">Home</a></li>
 				<li><a href="login.php">Log In</a></li>
 				<li><a href="#">Sign Up</a></li>
-				<li><a href="#">contact</a></li>
+				<li><a href="contact.php">contact Us</a></li>
 			</ul>
 		</div>
 		

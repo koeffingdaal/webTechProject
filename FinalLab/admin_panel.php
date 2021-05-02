@@ -24,7 +24,7 @@
 
 <div id="data">
 <br><br>
-
+<div class="div1">
 <center><h1>Data available</h1></center>
 <?php
 		
@@ -36,7 +36,7 @@
 
 ?>
 
-<table boarder = "5px" >
+<table class="table" border="2px">
 			<tr>
 				<th>BusName</th>
 				<th>Departure</th>
@@ -58,7 +58,9 @@
 ?>
 		</table>
 
-
+</div>
 </div>
 </body>
+
+</style>
 </html>

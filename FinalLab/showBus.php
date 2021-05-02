@@ -16,7 +16,7 @@
 }
 
 ?>
-<table border="5px">
+<table border="5px" align="center">
 			<tr>
 				<th>Bus Name</th>
 				<th>Start</th>
@@ -37,3 +37,16 @@
 
 ?>
 		</table>
+
+		<style>
+			body{
+				
+			  border: 1px solid black;
+			  margin-top: 50px;
+			  margin-bottom: 50px;
+			  margin-right: 50px;
+			  margin-left: 50px;
+			  background-color: lightblue;
+			  font-family: cosolas;
+			}
+		</style>

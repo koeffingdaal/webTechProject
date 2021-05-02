@@ -15,4 +15,16 @@
 	
 }
 
+
+	
+	
+	foreach ($result as $row) {
+		echo "<tr>";
+						echo "<td>".$row["busname"]."</td>";
+						echo "<td>".$row["start"]."</td>";
+						echo "<td>".$row["end"]."</td>";
+						echo "<td>".$row["type"]."</td>";
+						echo "</tr>";
+	}
+
 ?>

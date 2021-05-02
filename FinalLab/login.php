@@ -1,44 +1,52 @@
 <?php
-	// session_start();
+
 	require_once 'controller/login_controller.php';
 
+
+
 ?>
-
-
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Login Form</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-	<div align="center">
-		<form method="post" align="center" class="login">
-		<h1>LOG IN</h1>
-	
-		USENAME : <input type="text" name="uname" placeholder="UserName" class="my-font"><br><br>
-		PASSWORD : <input type="password" name="pass" placeholder="Password" class="my-font"><br><br>
-		<input type="submit" value="Login"> <br> <a href="Registration.php"><b>Not registration yet!</b></a>
-	
-		
-	</form>
-	</div>
-	
-	<style>
-		body{
-			border: 1px solid black;
-			  margin-top: 50px;
-			  margin-bottom: 50px;
-			  margin-right: 50px;
-			  margin-left: 50px;
-			  background-color: lightblue;
-			  font-family: cosolas;
-			  
-		}
-		.my-font{
-			font-family: consolas;
-		}
-
-	</style>
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form method="post">
+				<img src="img/avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		
+           		   		<input type="text" class="input" name="uname" placeholder="Username">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	
+           		    	<input type="password" class="input" name="pass" placeholder="Password">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<input type="submit" class="btn" value="Login">
+            </form>
+        </div>
+    </div>
 </body>
 </html>
+

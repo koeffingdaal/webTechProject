@@ -1,0 +1,16 @@
+D:\VS project\LogInForm\LogInForm\bin\Debug\netcoreapp3.1\LogInForm.exe
+D:\VS project\LogInForm\LogInForm\bin\Debug\netcoreapp3.1\LogInForm.deps.json
+D:\VS project\LogInForm\LogInForm\bin\Debug\netcoreapp3.1\LogInForm.runtimeconfig.json
+D:\VS project\LogInForm\LogInForm\bin\Debug\netcoreapp3.1\LogInForm.runtimeconfig.dev.json
+D:\VS project\LogInForm\LogInForm\bin\Debug\netcoreapp3.1\LogInForm.dll
+D:\VS project\LogInForm\LogInForm\bin\Debug\netcoreapp3.1\LogInForm.pdb
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.csprojAssemblyReference.cache
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.Dashboard.resources
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.Form1.resources
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.csproj.GenerateResource.cache
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.AssemblyInfoInputs.cache
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.AssemblyInfo.cs
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.csproj.CoreCompileInputs.cache
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.dll
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.pdb
+D:\VS project\LogInForm\LogInForm\obj\Debug\netcoreapp3.1\LogInForm.genruntimeconfig.cache

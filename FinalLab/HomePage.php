@@ -1,3 +1,20 @@
+<?php
+	$ride = "";
+	$bus = "";
+
+	 if($_SERVER["REQUEST_METHOD"] == "POST"){
+	 	$ride = $_POST["ride"];
+
+	 	if(isset($bus)){
+	 		header("Location: DigitalRide.php");
+	 	}
+
+
+	 }
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,12 +40,15 @@
 		<h1>Introducing you to the Digital System</h1>
 		<p>A one-stop shop for your everyday needs at your fingertips</p>
 		<div>
-		 	<button type="button"><span></span> Digital Ride</button>
-		 	<button type="button"><span></span> Digital Food</button>
-		 	<button type="button"><span></span> Digital Bus</button>
-		 	<button type="button"><span></span> Digital Launch</button>
-		 	<button type="button"><span></span> Digital Event</button>
-		 	<button type="button"><span></span> Digital Movie</button>
+			<form method="post">
+				<button type="submit"><span></span> Digital Ride</button>
+			 	<button type="button"><span></span> Digital Food</button>
+			 	<button type="submit" name="bus"><span></span> Digital Bus</button>
+			 	<button type="button"><span></span> Digital Launch</button>
+			 	<button type="button"><span></span> Digital Event</button>
+			 	<button type="button"><span></span> Digital Movie</button>
+			</form>
+		 	
 		</div>
 	</div>
 

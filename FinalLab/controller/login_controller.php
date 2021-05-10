@@ -29,7 +29,7 @@
 			$user = $result[0];
 			$_SESSION["loggedin"] = $user["username"];
 			header("Location: search.php");
-		}elseif ($uname = 'admin' && $pass = 'admin1221') {
+		}elseif ($uname == 'admin' && $pass == 'admin1221') {
 			header("Location: admin_panel.php");
 		}
 		else{

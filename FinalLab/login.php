@@ -42,7 +42,7 @@
            		    	<input type="password" class="input" name="pass" placeholder="Password">
             	   </div>
             	</div>
-            	<a href="#">Forgot Password?</a>
+            	<a href="change_pass.php">Forgot Password?</a>
             	<input type="submit" class="btn" value="Login">
             </form>
         </div>
